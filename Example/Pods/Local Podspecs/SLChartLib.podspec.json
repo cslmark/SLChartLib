@@ -1,22 +1,31 @@
 {
   "name": "SLChartLib",
-  "version": "0.1.0",
-  "summary": "A short description of SLChartLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ianslchen/SLChartLib",
+  "version": "0.0.1",
+  "summary": "一个方便的绘制曲线图和柱状图的OC库",
+  "description": "柱状图，统计图，折线图，曲线图",
+  "homepage": "https://github.com/cslmark",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ianslchen": "ianslchen@tencent.com"
-  },
-  "source": {
-    "git": "https://github.com/ianslchen/SLChartLib.git",
-    "tag": "0.1.0"
+    "ianslchen": "linxi_njupt@163.com"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SLChartLib/Classes/**/*"
+  "source": {
+    "git": "https://github.com/cslmark/SLChartLib.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "SLChartLib/Classes/*.{h,m}",
+    "SLChartLib/Classes/**/*.{h,m}"
+  ],
+  "resources": "Assets/Resource/statistics_data_bg.png",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true
 }

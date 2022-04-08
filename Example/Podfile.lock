@@ -1,5 +1,5 @@
 PODS:
-  - SLChartLib (0.1.0)
+  - SLChartLib (0.0.1)
 
 DEPENDENCIES:
   - SLChartLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SLChartLib: ae2291ced12f49e3df0072e3a2a73198db546c57
+  SLChartLib: 5446c895c3cacffc2e6e5c964c93f6d35789d61e
 
 PODFILE CHECKSUM: e3cd72107603ff030eddeb4dd5345c155984bdca
 

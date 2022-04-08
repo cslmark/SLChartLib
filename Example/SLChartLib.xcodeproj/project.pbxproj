@@ -21,6 +21,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6D9AF4B82800271900EB533B /* XAxisFormtter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AF4B22800271900EB533B /* XAxisFormtter.m */; };
+		6D9AF4B92800271900EB533B /* YAxisFormtter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AF4B32800271900EB533B /* YAxisFormtter.m */; };
+		6D9AF4BA2800271900EB533B /* YRightAxisFormtter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AF4B72800271900EB533B /* YRightAxisFormtter.m */; };
+		6D9AF4BD2800275A00EB533B /* HighLightFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AF4BC2800275A00EB533B /* HighLightFormatter.m */; };
+		6D9AF4C0280027FE00EB533B /* PinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9AF4BF280027FE00EB533B /* PinkView.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EB7409F6F459AFD2E71AB743 /* Pods_SLChartLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8141FB9A5175A17E1A64F540 /* Pods_SLChartLib_Tests.framework */; };
@@ -37,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		373419481DB9817C4EBF9C60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		373419481DB9817C4EBF9C60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		422ABAE754CD501CF0E8F393 /* Pods-SLChartLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLChartLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5ABAE37CDED7353F0FF31A9D /* Pods_SLChartLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLChartLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SLChartLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLChartLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,11 +65,21 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		602DA874807C50C69D95CECF /* Pods-SLChartLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLChartLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6D9AF4B22800271900EB533B /* XAxisFormtter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisFormtter.m; sourceTree = "<group>"; };
+		6D9AF4B32800271900EB533B /* YAxisFormtter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisFormtter.m; sourceTree = "<group>"; };
+		6D9AF4B42800271900EB533B /* YRightAxisFormtter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRightAxisFormtter.h; sourceTree = "<group>"; };
+		6D9AF4B52800271900EB533B /* XAxisFormtter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisFormtter.h; sourceTree = "<group>"; };
+		6D9AF4B62800271900EB533B /* YAxisFormtter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisFormtter.h; sourceTree = "<group>"; };
+		6D9AF4B72800271900EB533B /* YRightAxisFormtter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRightAxisFormtter.m; sourceTree = "<group>"; };
+		6D9AF4BB2800275A00EB533B /* HighLightFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighLightFormatter.h; sourceTree = "<group>"; };
+		6D9AF4BC2800275A00EB533B /* HighLightFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighLightFormatter.m; sourceTree = "<group>"; };
+		6D9AF4BE280027FE00EB533B /* PinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinkView.h; sourceTree = "<group>"; };
+		6D9AF4BF280027FE00EB533B /* PinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinkView.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8141FB9A5175A17E1A64F540 /* Pods_SLChartLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLChartLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A39A438AD1A47CFE4BBF1A86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BDA1478B1C99497B24B4F19D /* SLChartLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SLChartLib.podspec; path = ../SLChartLib.podspec; sourceTree = "<group>"; };
+		A39A438AD1A47CFE4BBF1A86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BDA1478B1C99497B24B4F19D /* SLChartLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SLChartLib.podspec; path = ../SLChartLib.podspec; sourceTree = "<group>"; };
 		D4D91CA3645BE18B9CF187AC /* Pods-SLChartLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLChartLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DA221B3EA0C3EEB5C660B259 /* Pods-SLChartLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLChartLib_Example.release.xcconfig"; path = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +118,6 @@
 				602DA874807C50C69D95CECF /* Pods-SLChartLib_Tests.debug.xcconfig */,
 				422ABAE754CD501CF0E8F393 /* Pods-SLChartLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +158,9 @@
 		6003F593195388D20070C39A /* Example for SLChartLib */ = {
 			isa = PBXGroup;
 			children = (
+				6D9AF4BE280027FE00EB533B /* PinkView.h */,
+				6D9AF4BF280027FE00EB533B /* PinkView.m */,
+				6D9AF4B1280026F200EB533B /* CustomerFormatter */,
 				6003F59C195388D20070C39A /* SLAppDelegate.h */,
 				6003F59D195388D20070C39A /* SLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -197,6 +214,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6D9AF4B1280026F200EB533B /* CustomerFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				6D9AF4BB2800275A00EB533B /* HighLightFormatter.h */,
+				6D9AF4BC2800275A00EB533B /* HighLightFormatter.m */,
+				6D9AF4B52800271900EB533B /* XAxisFormtter.h */,
+				6D9AF4B22800271900EB533B /* XAxisFormtter.m */,
+				6D9AF4B62800271900EB533B /* YAxisFormtter.h */,
+				6D9AF4B32800271900EB533B /* YAxisFormtter.m */,
+				6D9AF4B42800271900EB533B /* YRightAxisFormtter.h */,
+				6D9AF4B72800271900EB533B /* YRightAxisFormtter.m */,
+			);
+			name = CustomerFormatter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +240,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				08DF6854D46CF13F67035A72 /* [CP] Embed Pods Frameworks */,
+				7F821FD6F1AFDCE2127F090E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ianslchen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N9C3BTD9LM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +331,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08DF6854D46CF13F67035A72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SLChartLib/SLChartLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLChartLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6C9F72E47F8694412A1DFD23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +351,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F821FD6F1AFDCE2127F090E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SLChartLib/SLChartLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLChartLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE5D4017404010E38D02EDAF /* [CP] Check Pods Manifest.lock */ = {
@@ -364,9 +400,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9AF4BA2800271900EB533B /* YRightAxisFormtter.m in Sources */,
+				6D9AF4B92800271900EB533B /* YAxisFormtter.m in Sources */,
+				6D9AF4C0280027FE00EB533B /* PinkView.m in Sources */,
 				6003F59E195388D20070C39A /* SLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SLViewController.m in Sources */,
+				6D9AF4B82800271900EB533B /* XAxisFormtter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6D9AF4BD2800275A00EB533B /* HighLightFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,11 +535,12 @@
 			baseConfigurationReference = D4D91CA3645BE18B9CF187AC /* Pods-SLChartLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9C3BTD9LM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SLChartLib/SLChartLib-Prefix.pch";
 				INFOPLIST_FILE = "SLChartLib/SLChartLib-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.sldemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +552,12 @@
 			baseConfigurationReference = DA221B3EA0C3EEB5C660B259 /* Pods-SLChartLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9C3BTD9LM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SLChartLib/SLChartLib-Prefix.pch";
 				INFOPLIST_FILE = "SLChartLib/SLChartLib-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.sldemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

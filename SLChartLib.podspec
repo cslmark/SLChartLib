@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/*.{h,m}", "Classes/**/*.{h,m}"
+  spec.source_files  = "SLChartLib/Classes/*.{h,m}", "SLChartLib/Classes/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 

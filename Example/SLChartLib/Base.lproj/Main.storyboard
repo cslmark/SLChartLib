@@ -1,31 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CFT-Uw-2Ew">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="L7I-dg-dgg">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="SLViewController" sceneMemberID="viewController">
+                <viewController id="CFT-Uw-2Ew" customClass="SLViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="yB8-yq-4KV"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Hh-dU-igQ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="NLn-rF-AfU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnW-kc-9tl">
+                                <rect key="frame" x="15" y="126" width="122" height="30"/>
+                                <state key="normal" title="隐藏/显示左边Y轴"/>
+                                <connections>
+                                    <action selector="hiddenLeftYAxisClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="j70-de-Clo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRh-FX-aJd">
+                                <rect key="frame" x="277" y="126" width="122" height="30"/>
+                                <state key="normal" title="隐藏/显示右边Y轴"/>
+                                <connections>
+                                    <action selector="hiddenRightAxisClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="B5e-8c-rYD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zf1-5E-1uE">
+                                <rect key="frame" x="15" y="178" width="91" height="30"/>
+                                <state key="normal" title="隐藏/显示X轴"/>
+                                <connections>
+                                    <action selector="hiddenXAxisClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="KSB-Ag-lUC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypF-Kz-efy">
+                                <rect key="frame" x="333" y="178" width="66" height="30"/>
+                                <state key="normal" title="折线/曲线"/>
+                                <connections>
+                                    <action selector="curveOrStrightClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="EKX-cM-ls8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QE2-vT-rVa">
+                                <rect key="frame" x="15" y="74" width="122" height="30"/>
+                                <state key="normal" title="开启/关闭X轴缩放"/>
+                                <connections>
+                                    <action selector="enableXscaleClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="teA-Tt-aXN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFQ-Dy-P6S">
+                                <rect key="frame" x="256" y="74" width="143" height="30"/>
+                                <state key="normal" title="开启/关闭动态纵坐标"/>
+                                <connections>
+                                    <action selector="enableDynamicYAxisClick:" destination="CFT-Uw-2Ew" eventType="touchUpInside" id="Xgv-D0-tQu"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9o-e1-ymD" customClass="BaseCurveView">
+                                <rect key="frame" x="0.0" y="230" width="414" height="300"/>
+                                <color key="backgroundColor" red="0.83791679139999997" green="0.8385563493" blue="0.83801579479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="vv4-bZ-b9D"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5O-c1-oet" customClass="PinkView">
+                                <rect key="frame" x="28" y="538" width="358" height="316"/>
+                                <color key="backgroundColor" systemColor="darkTextColor"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q5O-c1-oet" firstAttribute="leading" secondItem="NLn-rF-AfU" secondAttribute="leadingMargin" constant="8" id="645-vb-2JO"/>
+                            <constraint firstItem="gRh-FX-aJd" firstAttribute="trailing" secondItem="NFQ-Dy-P6S" secondAttribute="trailing" id="6d2-FT-ik8"/>
+                            <constraint firstItem="ypF-Kz-efy" firstAttribute="trailing" secondItem="NFQ-Dy-P6S" secondAttribute="trailing" id="71w-UC-a0y"/>
+                            <constraint firstItem="gRh-FX-aJd" firstAttribute="centerY" secondItem="GnW-kc-9tl" secondAttribute="centerY" id="95h-CY-iU8"/>
+                            <constraint firstItem="GnW-kc-9tl" firstAttribute="leading" secondItem="QE2-vT-rVa" secondAttribute="leading" id="Bvf-yt-cqH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q5O-c1-oet" secondAttribute="trailing" constant="8" id="DDV-5Q-h2f"/>
+                            <constraint firstItem="GnW-kc-9tl" firstAttribute="top" secondItem="QE2-vT-rVa" secondAttribute="bottom" constant="22" id="DJI-db-ZMc"/>
+                            <constraint firstItem="b9o-e1-ymD" firstAttribute="top" secondItem="ypF-Kz-efy" secondAttribute="bottom" constant="22" id="EEF-F1-irn"/>
+                            <constraint firstItem="QE2-vT-rVa" firstAttribute="leading" secondItem="NLn-rF-AfU" secondAttribute="leading" constant="15" id="GZD-ml-xy5"/>
+                            <constraint firstItem="ypF-Kz-efy" firstAttribute="centerY" secondItem="zf1-5E-1uE" secondAttribute="centerY" id="L6I-lC-L6P"/>
+                            <constraint firstAttribute="trailing" secondItem="b9o-e1-ymD" secondAttribute="trailing" id="QFg-5V-bC8"/>
+                            <constraint firstItem="1Hh-dU-igQ" firstAttribute="top" secondItem="Q5O-c1-oet" secondAttribute="bottom" constant="8" id="RX2-OL-apI"/>
+                            <constraint firstItem="b9o-e1-ymD" firstAttribute="leading" secondItem="NLn-rF-AfU" secondAttribute="leading" id="Vqf-uI-Ytz"/>
+                            <constraint firstItem="zf1-5E-1uE" firstAttribute="leading" secondItem="QE2-vT-rVa" secondAttribute="leading" id="WCy-Su-qVP"/>
+                            <constraint firstItem="NFQ-Dy-P6S" firstAttribute="centerY" secondItem="QE2-vT-rVa" secondAttribute="centerY" id="Yrd-UE-Cmh"/>
+                            <constraint firstAttribute="trailing" secondItem="NFQ-Dy-P6S" secondAttribute="trailing" constant="15" id="d9y-8A-zFC"/>
+                            <constraint firstItem="zf1-5E-1uE" firstAttribute="top" secondItem="GnW-kc-9tl" secondAttribute="bottom" constant="22" id="nJt-oe-Gdk"/>
+                            <constraint firstItem="QE2-vT-rVa" firstAttribute="top" secondItem="yB8-yq-4KV" secondAttribute="bottom" constant="30" id="utw-rL-uzx"/>
+                            <constraint firstItem="Q5O-c1-oet" firstAttribute="top" secondItem="b9o-e1-ymD" secondAttribute="bottom" constant="8" id="xcv-b6-l2S"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myView" destination="b9o-e1-ymD" id="HIw-XJ-iIO"/>
+                        <outlet property="pinkView" destination="Q5O-c1-oet" id="rKN-ZM-mvS"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bwh-IY-mfG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="112" y="105"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
