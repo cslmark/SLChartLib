@@ -1,0 +1,22 @@
+{
+  "name": "SLChartLib",
+  "version": "0.1.0",
+  "summary": "A short description of SLChartLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ianslchen/SLChartLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ianslchen": "ianslchen@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/ianslchen/SLChartLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SLChartLib/Classes/**/*"
+}

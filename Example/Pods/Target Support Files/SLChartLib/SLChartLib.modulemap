@@ -1,0 +1,6 @@
+framework module SLChartLib {
+  umbrella header "SLChartLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

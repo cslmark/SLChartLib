@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B29F3DD529D2AF5A02C46F69E57C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		134412D36698641ABE880F717F340F3C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7956CEC31391EDB540D363A2CEC2A /* ReplaceMe.m */; };
+		6E1892613744EC492C49AB36D0FF7B43 /* SLChartLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518999580733EA70C890945E44FEE9DA /* SLChartLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89BD591E8527E8B838AE20396A3C46E7 /* Pods-SLChartLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62992D55C777EB0D68E65DB24783E11A /* Pods-SLChartLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB78E379B1ACE676405A500CE21E7D0 /* Pods-SLChartLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9741BFA3CDF5EFE86EE20FFC6C60A6 /* Pods-SLChartLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92269E82B50F1838852C53040DB6BB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A80673060AE773D4161E4EDB6025743C /* Pods-SLChartLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6719F9B54F54119652C463A6CE793BED /* Pods-SLChartLib_Tests-dummy.m */; };
+		A90E991529EBFE96613B435013C967F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D0DB47BBEB6828DE28D04DC9E9EFC566 /* SLChartLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57213E255ADA19F907BAC0F7A552199 /* SLChartLib-dummy.m */; };
+		E79154981EA9CFC5CF30B9E2A77E757D /* Pods-SLChartLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 263AD7753731B68FCBF9214EDB560B9D /* Pods-SLChartLib_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A820C987FB7FF71181B54F5D691B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC52D1CE771F6F230C9A0FBBB5D6C1E;
+			remoteInfo = SLChartLib;
+		};
+		CD97C754D6C23E738F8491136657A8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E3E03CBCBC11BBD9975047B58108369;
+			remoteInfo = "Pods-SLChartLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0717080C804B031537834CB8B10F4214 /* Pods-SLChartLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLChartLib_Tests"; path = Pods_SLChartLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C46CAEBB1829AC3D00B2EB0699793A /* SLChartLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLChartLib-prefix.pch"; sourceTree = "<group>"; };
+		17AFCADA4C95B086963FB4F88CC65EE4 /* SLChartLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLChartLib.modulemap; sourceTree = "<group>"; };
+		1C67244F546470F22F662C24989F713D /* Pods-SLChartLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLChartLib_Example-Info.plist"; sourceTree = "<group>"; };
+		263AD7753731B68FCBF9214EDB560B9D /* Pods-SLChartLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLChartLib_Example-dummy.m"; sourceTree = "<group>"; };
+		2F8F8ADA75502C68CD0812D68949A0AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A9741BFA3CDF5EFE86EE20FFC6C60A6 /* Pods-SLChartLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLChartLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		3F7A221A2C5910E0E5B6EA257273C8FD /* Pods-SLChartLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLChartLib_Example.modulemap"; sourceTree = "<group>"; };
+		40A660CCA015AC417698873C996FBC97 /* Pods-SLChartLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLChartLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		518999580733EA70C890945E44FEE9DA /* SLChartLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLChartLib-umbrella.h"; sourceTree = "<group>"; };
+		62992D55C777EB0D68E65DB24783E11A /* Pods-SLChartLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLChartLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63FDF0CA85A80E241E946E7DAA7235AB /* Pods-SLChartLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLChartLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		6719F9B54F54119652C463A6CE793BED /* Pods-SLChartLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLChartLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80CDE03F2F0FE24242ABDECCBF689614 /* Pods-SLChartLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLChartLib_Example"; path = Pods_SLChartLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1C5DC6855D7EE1D8BCE1F51725B3EC /* Pods-SLChartLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLChartLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57213E255ADA19F907BAC0F7A552199 /* SLChartLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLChartLib-dummy.m"; sourceTree = "<group>"; };
+		A6DA7141909E15ECCB4B25ADDA300C88 /* SLChartLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLChartLib.release.xcconfig; sourceTree = "<group>"; };
+		A86F0228966F00B1C215ADFA40214B83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB321B180DEB12C9E072ABD46B748692 /* Pods-SLChartLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLChartLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE3762D22263172010A9F26DFAE6B046 /* Pods-SLChartLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLChartLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C689FED96EFAAEC9E9EE4B65B133CC69 /* Pods-SLChartLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLChartLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D0B17146CA8FB91DA6017E3447F64B50 /* Pods-SLChartLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLChartLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D52954979BC6C9A0F0A54B69AD46E522 /* Pods-SLChartLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLChartLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE52E464E88E9FBD5CE0FA46BDE95D5 /* Pods-SLChartLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLChartLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDC7956CEC31391EDB540D363A2CEC2A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SLChartLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E28AB829B62F0B5AA23991324F131647 /* SLChartLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLChartLib.debug.xcconfig; sourceTree = "<group>"; };
+		E2D6EC6FE0F3325954F3C272ACF7D9B9 /* Pods-SLChartLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLChartLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E554AB59C7038181FF26F140616799D9 /* SLChartLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLChartLib; path = SLChartLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E899A5FC5F566F5C1D82031D87EDC475 /* Pods-SLChartLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLChartLib_Tests.modulemap"; sourceTree = "<group>"; };
+		EE54891AC74341DC951E9507F77B5499 /* SLChartLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLChartLib-Info.plist"; sourceTree = "<group>"; };
+		FFD3694F7810FD83ED96E54AC6C53B2D /* SLChartLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLChartLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DFE54833E6F6E32D69FB129F5128AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B29F3DD529D2AF5A02C46F69E57C21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F01BFEC32D3229C6233BF8CC3D8F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90E991529EBFE96613B435013C967F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55D53700F71693ACBE508C60725C03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92269E82B50F1838852C53040DB6BB9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFDA53ED8EE2C68C507470F524CB1D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C895A0CC31E17C4D3686453748AB555 /* Pods-SLChartLib_Example */,
+				23AF4E3844850DB52D85470D7CFC1C0A /* Pods-SLChartLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		23AF4E3844850DB52D85470D7CFC1C0A /* Pods-SLChartLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E899A5FC5F566F5C1D82031D87EDC475 /* Pods-SLChartLib_Tests.modulemap */,
+				D0B17146CA8FB91DA6017E3447F64B50 /* Pods-SLChartLib_Tests-acknowledgements.markdown */,
+				BE3762D22263172010A9F26DFAE6B046 /* Pods-SLChartLib_Tests-acknowledgements.plist */,
+				6719F9B54F54119652C463A6CE793BED /* Pods-SLChartLib_Tests-dummy.m */,
+				63FDF0CA85A80E241E946E7DAA7235AB /* Pods-SLChartLib_Tests-Info.plist */,
+				62992D55C777EB0D68E65DB24783E11A /* Pods-SLChartLib_Tests-umbrella.h */,
+				E2D6EC6FE0F3325954F3C272ACF7D9B9 /* Pods-SLChartLib_Tests.debug.xcconfig */,
+				9A1C5DC6855D7EE1D8BCE1F51725B3EC /* Pods-SLChartLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-SLChartLib_Tests";
+			path = "Target Support Files/Pods-SLChartLib_Tests";
+			sourceTree = "<group>";
+		};
+		36F7E473AF2C09975267E0EFC932C957 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75FF0FE69E1AEED13207527211D77C70 /* SLChartLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46703B05E4E3E793380DA0246F410DFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17AFCADA4C95B086963FB4F88CC65EE4 /* SLChartLib.modulemap */,
+				A57213E255ADA19F907BAC0F7A552199 /* SLChartLib-dummy.m */,
+				EE54891AC74341DC951E9507F77B5499 /* SLChartLib-Info.plist */,
+				08C46CAEBB1829AC3D00B2EB0699793A /* SLChartLib-prefix.pch */,
+				518999580733EA70C890945E44FEE9DA /* SLChartLib-umbrella.h */,
+				E28AB829B62F0B5AA23991324F131647 /* SLChartLib.debug.xcconfig */,
+				A6DA7141909E15ECCB4B25ADDA300C88 /* SLChartLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLChartLib";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C895A0CC31E17C4D3686453748AB555 /* Pods-SLChartLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A221A2C5910E0E5B6EA257273C8FD /* Pods-SLChartLib_Example.modulemap */,
+				DCE52E464E88E9FBD5CE0FA46BDE95D5 /* Pods-SLChartLib_Example-acknowledgements.markdown */,
+				BB321B180DEB12C9E072ABD46B748692 /* Pods-SLChartLib_Example-acknowledgements.plist */,
+				263AD7753731B68FCBF9214EDB560B9D /* Pods-SLChartLib_Example-dummy.m */,
+				C689FED96EFAAEC9E9EE4B65B133CC69 /* Pods-SLChartLib_Example-frameworks.sh */,
+				1C67244F546470F22F662C24989F713D /* Pods-SLChartLib_Example-Info.plist */,
+				3A9741BFA3CDF5EFE86EE20FFC6C60A6 /* Pods-SLChartLib_Example-umbrella.h */,
+				D52954979BC6C9A0F0A54B69AD46E522 /* Pods-SLChartLib_Example.debug.xcconfig */,
+				40A660CCA015AC417698873C996FBC97 /* Pods-SLChartLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SLChartLib_Example";
+			path = "Target Support Files/Pods-SLChartLib_Example";
+			sourceTree = "<group>";
+		};
+		707CCF92EAE6ADE4A7B704C60B512A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CDE03F2F0FE24242ABDECCBF689614 /* Pods-SLChartLib_Example */,
+				0717080C804B031537834CB8B10F4214 /* Pods-SLChartLib_Tests */,
+				E554AB59C7038181FF26F140616799D9 /* SLChartLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FF0FE69E1AEED13207527211D77C70 /* SLChartLib */ = {
+			isa = PBXGroup;
+			children = (
+				DDC7956CEC31391EDB540D363A2CEC2A /* ReplaceMe.m */,
+				D1B076F31BC4CA1974332B30F45C79D0 /* Pod */,
+				46703B05E4E3E793380DA0246F410DFF /* Support Files */,
+			);
+			name = SLChartLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				36F7E473AF2C09975267E0EFC932C957 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				707CCF92EAE6ADE4A7B704C60B512A4F /* Products */,
+				1DFDA53ED8EE2C68C507470F524CB1D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B076F31BC4CA1974332B30F45C79D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A86F0228966F00B1C215ADFA40214B83 /* LICENSE */,
+				2F8F8ADA75502C68CD0812D68949A0AE /* README.md */,
+				FFD3694F7810FD83ED96E54AC6C53B2D /* SLChartLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07932D72CCF7274A8652C3951421CE4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1892613744EC492C49AB36D0FF7B43 /* SLChartLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB25F0C2C48D3A52A73BE78A59496D08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB78E379B1ACE676405A500CE21E7D0 /* Pods-SLChartLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2354F795BC084BF889A3E9F421B973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BD591E8527E8B838AE20396A3C46E7 /* Pods-SLChartLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E3E03CBCBC11BBD9975047B58108369 /* Pods-SLChartLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D140EF7A9D404A00C12D79EF834CACB7 /* Build configuration list for PBXNativeTarget "Pods-SLChartLib_Example" */;
+			buildPhases = (
+				BB25F0C2C48D3A52A73BE78A59496D08 /* Headers */,
+				E5B2112F4EDCEE984AF39E56C5DF937E /* Sources */,
+				D55D53700F71693ACBE508C60725C03C /* Frameworks */,
+				E060E810656531CFADF5FB46E3F1B52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575822D594B18FF966ADE705D724D353 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLChartLib_Example";
+			productName = Pods_SLChartLib_Example;
+			productReference = 80CDE03F2F0FE24242ABDECCBF689614 /* Pods-SLChartLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		559CEA3544987C05F73DACB57ADDD612 /* Pods-SLChartLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F4070EB452EAA6E50B9B5D0E3DA323 /* Build configuration list for PBXNativeTarget "Pods-SLChartLib_Tests" */;
+			buildPhases = (
+				DB2354F795BC084BF889A3E9F421B973 /* Headers */,
+				2B9842C231CDEFAFEB5756C8AC9951FB /* Sources */,
+				07DFE54833E6F6E32D69FB129F5128AB /* Frameworks */,
+				78A71850DAD2E2A0966AE8F3CAFFA330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD1C3735C79EA07DEA81E75271A7BF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLChartLib_Tests";
+			productName = Pods_SLChartLib_Tests;
+			productReference = 0717080C804B031537834CB8B10F4214 /* Pods-SLChartLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAC52D1CE771F6F230C9A0FBBB5D6C1E /* SLChartLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C6BDF12B7093802C7D71C4AFA4B8A9 /* Build configuration list for PBXNativeTarget "SLChartLib" */;
+			buildPhases = (
+				07932D72CCF7274A8652C3951421CE4A /* Headers */,
+				D1ABF26CC7E42AF76D13F4CE3C4C82A4 /* Sources */,
+				B0F01BFEC32D3229C6233BF8CC3D8F7C /* Frameworks */,
+				77E58931C7FB90BB1175833E6269238F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLChartLib;
+			productName = SLChartLib;
+			productReference = E554AB59C7038181FF26F140616799D9 /* SLChartLib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 707CCF92EAE6ADE4A7B704C60B512A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E3E03CBCBC11BBD9975047B58108369 /* Pods-SLChartLib_Example */,
+				559CEA3544987C05F73DACB57ADDD612 /* Pods-SLChartLib_Tests */,
+				CAC52D1CE771F6F230C9A0FBBB5D6C1E /* SLChartLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E58931C7FB90BB1175833E6269238F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A71850DAD2E2A0966AE8F3CAFFA330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E060E810656531CFADF5FB46E3F1B52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9842C231CDEFAFEB5756C8AC9951FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80673060AE773D4161E4EDB6025743C /* Pods-SLChartLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ABF26CC7E42AF76D13F4CE3C4C82A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134412D36698641ABE880F717F340F3C /* ReplaceMe.m in Sources */,
+				D0DB47BBEB6828DE28D04DC9E9EFC566 /* SLChartLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B2112F4EDCEE984AF39E56C5DF937E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79154981EA9CFC5CF30B9E2A77E757D /* Pods-SLChartLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		575822D594B18FF966ADE705D724D353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLChartLib;
+			target = CAC52D1CE771F6F230C9A0FBBB5D6C1E /* SLChartLib */;
+			targetProxy = 03A820C987FB7FF71181B54F5D691B02 /* PBXContainerItemProxy */;
+		};
+		9AD1C3735C79EA07DEA81E75271A7BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLChartLib_Example";
+			target = 0E3E03CBCBC11BBD9975047B58108369 /* Pods-SLChartLib_Example */;
+			targetProxy = CD97C754D6C23E738F8491136657A8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		303BAA86555A83079DC50C6330884EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28AB829B62F0B5AA23991324F131647 /* SLChartLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLChartLib/SLChartLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLChartLib/SLChartLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLChartLib/SLChartLib.modulemap";
+				PRODUCT_MODULE_NAME = SLChartLib;
+				PRODUCT_NAME = SLChartLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AF3B0E3A47D07106B8523A2A258199B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1C5DC6855D7EE1D8BCE1F51725B3EC /* Pods-SLChartLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76316BDB8297E21AC1EB0D5E3BBF0C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A660CCA015AC417698873C996FBC97 /* Pods-SLChartLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82DDD81CF4B61D3106D434494F7C4FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D6EC6FE0F3325954F3C272ACF7D9B9 /* Pods-SLChartLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLChartLib_Tests/Pods-SLChartLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95244D02F1EEDAC629001F3D2D842C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52954979BC6C9A0F0A54B69AD46E522 /* Pods-SLChartLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLChartLib_Example/Pods-SLChartLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DC59E520EF4CE803C8509A3DCBB974E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DA7141909E15ECCB4B25ADDA300C88 /* SLChartLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLChartLib/SLChartLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLChartLib/SLChartLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLChartLib/SLChartLib.modulemap";
+				PRODUCT_MODULE_NAME = SLChartLib;
+				PRODUCT_NAME = SLChartLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C6BDF12B7093802C7D71C4AFA4B8A9 /* Build configuration list for PBXNativeTarget "SLChartLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303BAA86555A83079DC50C6330884EC9 /* Debug */,
+				DC59E520EF4CE803C8509A3DCBB974E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F4070EB452EAA6E50B9B5D0E3DA323 /* Build configuration list for PBXNativeTarget "Pods-SLChartLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DDD81CF4B61D3106D434494F7C4FBF /* Debug */,
+				5AF3B0E3A47D07106B8523A2A258199B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D140EF7A9D404A00C12D79EF834CACB7 /* Build configuration list for PBXNativeTarget "Pods-SLChartLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95244D02F1EEDAC629001F3D2D842C4D /* Debug */,
+				76316BDB8297E21AC1EB0D5E3BBF0C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

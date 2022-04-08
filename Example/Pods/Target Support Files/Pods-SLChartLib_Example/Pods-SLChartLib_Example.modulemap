@@ -1,0 +1,6 @@
+framework module Pods_SLChartLib_Example {
+  umbrella header "Pods-SLChartLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

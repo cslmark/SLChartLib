@@ -1,0 +1,16 @@
+PODS:
+  - SLChartLib (0.1.0)
+
+DEPENDENCIES:
+  - SLChartLib (from `../`)
+
+EXTERNAL SOURCES:
+  SLChartLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLChartLib: ae2291ced12f49e3df0072e3a2a73198db546c57
+
+PODFILE CHECKSUM: e3cd72107603ff030eddeb4dd5345c155984bdca
+
+COCOAPODS: 1.11.3
